@@ -1,0 +1,46 @@
+.card{
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 10vh;
+    height: 25vh;
+    border-bottom: 15px solid gainsboro;
+    background-color:rgba(139, 190, 17, 0.8);
+    width:40vw;
+    color: white;
+    border-radius: 30%;
+    font-size: larger;
+}
+.rounded-image{
+    margin-top: 3vh;
+    margin-left: 5vw;
+    width:15vh;
+    height:15vh;
+    border-radius: 50%;
+}
+
+.card-details{
+    margin-top: 3vh;
+    margin-left: 1vw;
+    display:inline-block;
+}
+
+.card-details h4{
+    text-decoration:inherit;
+}
+
+@media(max-width:600px){
+    .card{
+        margin-left: 5vw;
+        margin-right: 5vw;
+        width: 90vw;
+        font-size: larger;
+        height:25vh;
+    }
+}
+
+.card:hover{
+    background-color: gainsboro;
+    border-bottom:15px solid rgba(139, 190, 17, 0.8);
+    background-color: gainsboro;
+    color:black;
+}
